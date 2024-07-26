@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="joinus.css">
+    <title>Join Our Team</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="row clearfix">
+            <div class="logo">
+                Reigning Resolution<br>Web Developers
+            </div>
+
+                <ul class="main-nav animate__slideInDown">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ourprojects.html">OUR PROJECTS</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="join-box">
+        
+        <h1>Join Us</h1>
+        <form action="joinus.php" method="POST" onsubmit="return Validate()">
+    
+        <div class="textbox"> 
+        <input placeholder="Name" type="text" name="Name" id="name" required>
+        </div>
+        <div class="textbox">
+        <input placeholder="Email" type="email" name="Email" id="email" required>
+        </div>
+        <div class="textbox">
+        <input placeholder="Mobile No." type="number" name="Mobile No." id="phone" required >
+        </div>
+        <div class="textbox">
+        <input placeholder="Age" type="number" name="Age" id="age" required>
+        </div>
+        <div class="textbox">
+        <input placeholder="Qualification" type="text" name="Qualification" id="qualification" required>
+        </div>
+        <!-- <div class="textbox">
+        <input placeholder="Date of Birth" type="date" name="Date of Birth" id="dob" >
+        </div> -->
+        <div class="textbox">
+        <textarea name="Description" id="desc" cols="30" rows="5"
+        placeholder="Enter Your Description Such As Your skills, Experience etc.." required></textarea>
+        </div>
+       <center><b><a href="postjoin.html"> <input class="btn" type="button" name="" value="Submit"></a></b></center>
+    </form>
+    </div> 
+</body>
+</html>
